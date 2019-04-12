@@ -2,7 +2,7 @@
     "title": "Resume",
     "name": "startbootstrap-resume",
     "version": "5.0.5",
-    "main": "app.js",
+    "main": "server.js",
     "scripts": {
         "start": "gulp watch"
     },
@@ -32,6 +32,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.8.1",
         "bootstrap": "4.3.1",
+        "express": "^4.16.4",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1"
     },
