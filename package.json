@@ -29,10 +29,14 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
     },
+    "engines": {
+        "node": "8.11.1"
+    },
     "dependencies": {
+        "ejs": "^2.5.6",
+        "express": "^4.15.2",
         "@fortawesome/fontawesome-free": "5.8.1",
         "bootstrap": "4.3.1",
-        "express": "^4.16.4",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1"
     },
